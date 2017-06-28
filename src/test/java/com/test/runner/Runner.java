@@ -19,7 +19,8 @@ public class Runner {
 			 TestNG testng = new TestNG();
 			 List<String> suites = Lists.newArrayList();
 			 //suites.add("c:/tests/testng1.xml");//path to xml..
-			 suites.add("D:/TestathonWorkspace/com.test.ui/testng.xml");
+			 //suites.add("D:/TestathonWorkspace/testathonUI/testng.xml");
+			 suites.add("C:/Workspace/testathonUI/testng.xml");
 			 
 			 testng.setTestSuites(suites);
 			 testng.run();
